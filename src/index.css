@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+svg {
+  background-color: burlywood;
+}
+
+svg rect {
+  stroke:rgb(0,0,0);
+  stroke-width:1;
+}
+
+svg rect.open{
+  fill:none;
+}
+
+svg rect.ruins{
+  fill: rgb(120,120,120);
+}
